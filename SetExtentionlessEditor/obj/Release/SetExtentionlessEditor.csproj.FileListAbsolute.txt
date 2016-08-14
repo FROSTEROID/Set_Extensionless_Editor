@@ -1,0 +1,7 @@
+E:\Project\C#\SetExtentionlessEditor\SetExtentionlessEditor\bin\Release\SetExtentionlessEditor.exe.config
+E:\Project\C#\SetExtentionlessEditor\SetExtentionlessEditor\bin\Release\SetExtentionlessEditor.exe
+E:\Project\C#\SetExtentionlessEditor\SetExtentionlessEditor\bin\Release\SetExtentionlessEditor.pdb
+E:\Project\C#\SetExtentionlessEditor\SetExtentionlessEditor\bin\Release\Microsoft.Win32.Registry.dll
+E:\Project\C#\SetExtentionlessEditor\SetExtentionlessEditor\obj\Release\SetExtentionlessEditor.exe
+E:\Project\C#\SetExtentionlessEditor\SetExtentionlessEditor\obj\Release\SetExtentionlessEditor.pdb
+E:\Project\C#\SetExtentionlessEditor\SetExtentionlessEditor\obj\Release\SetExtentionlessEditor.csprojResolveAssemblyReference.cache
