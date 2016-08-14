@@ -4,6 +4,7 @@ If You have no idea how visual studio works, just go into SetExtentionlessEditor
 
 <summary>
 Make windows open extentionless files with a program you specify.
+(RELOGIN MAY BE NECESSARY!)
 You also can specify a mime type for those files. So, two ways to use.
 
 1) Specify a single parameter-path pointing to the .exe to call. 
