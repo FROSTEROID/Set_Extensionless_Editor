@@ -36,7 +36,7 @@ namespace SetExtentionlessEditor
 			{
 				case 1: 
 					pathToExe = args[0];
-						// Erase . mimetype in case it was there to ensure any shit doesn't happen
+						// Erase . mimetype in case it was there to ensure any shit doesn't happen (can't be sure though)
 					Registry.SetValue("HKEY_CLASSES_ROOT\\.\\", "", "");
 						// And just take the given path to HKEY_CLASSES_ROOT\.\shell\open\command\@
 					Registry.SetValue("HKEY_CLASSES_ROOT\\.\\shell\\open\\command", "", pathToExe+" %1");
@@ -45,6 +45,8 @@ namespace SetExtentionlessEditor
 				case 2:						
 					pathToExe = args[0];
 					mimeType = args[1];
+						// Erase . command in case it was there to ensure any shit doesn't happen (can't be sure though)
+					Registry.SetValue("HKEY_CLASSES_ROOT\\.\\shell\\open\\command", "", "");
 						// Make the HKEY_CLASSES_ROOT\.\@ be the specified type
 					Registry.SetValue("HKEY_CLASSES_ROOT\\.\\", "", mimeType);
 						// Then make that type be opened with the specified .exe  (write the path to HKEY_CLASSES_ROOT\%mimetypename%\shell\open\command\@)
