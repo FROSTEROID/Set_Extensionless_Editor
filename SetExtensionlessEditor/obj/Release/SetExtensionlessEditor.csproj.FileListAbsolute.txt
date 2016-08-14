@@ -1,0 +1,6 @@
+E:\Project\C#\Set_Extensionless_Editor\SetExtensionlessEditor\bin\Release\SetExtentionlessEditor.exe.config
+E:\Project\C#\Set_Extensionless_Editor\SetExtensionlessEditor\bin\Release\SetExtentionlessEditor.exe
+E:\Project\C#\Set_Extensionless_Editor\SetExtensionlessEditor\bin\Release\SetExtentionlessEditor.pdb
+E:\Project\C#\Set_Extensionless_Editor\SetExtensionlessEditor\obj\Release\SetExtensionlessEditor.csprojResolveAssemblyReference.cache
+E:\Project\C#\Set_Extensionless_Editor\SetExtensionlessEditor\obj\Release\SetExtentionlessEditor.exe
+E:\Project\C#\Set_Extensionless_Editor\SetExtensionlessEditor\obj\Release\SetExtentionlessEditor.pdb

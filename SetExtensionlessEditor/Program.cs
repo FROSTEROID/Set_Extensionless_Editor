@@ -5,26 +5,26 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Win32;
 
-namespace SetExtentionlessEditor
+namespace SetExtensionlessEditor
 {
 	class Program
 	{
-		const string RTFM = "Make windows open extentionless files with a program you specify.\n(RELOGIN MAY BE NECESSARY!)\nYou also can specify a mime type for those files. So, two ways to use.\n\n1) Specify a single parameter-path pointing to the.exe to call. \nIt will be called and passed the opened file as a single arg.\n(\" % PATH % % 1\" in the windows register)\nEXAMPLE: SetExtentionlessEditor \"%windir%\\notepad.exe\"\n\n2) (+visual sugar) Specify two parameters: full path to.exe and a mime type to apply to \nextentionless files. This will make the explorer show an icon that's\nassociated withthatmime type along with extless files in it's GUI.\nEXAMPLE: SetExtentionlessEditor \"%windir%\\notepad.exe\" txtfile\n\nAnd You need to be the Admin(evaluated) to do this shiet.";
+		const string RTFM = "Make windows open extensionless files with a program you specify.\n(RELOGIN MAY BE NECESSARY!)\nYou also can specify a mime type for those files. So, two ways to use.\n\n1) Specify a single parameter-path pointing to the.exe to call. \nIt will be called and passed the opened file as a single arg.\n(\" % PATH % % 1\" in the windows register)\nEXAMPLE: SetExtensionlessEditor \"%windir%\\notepad.exe\"\n\n2) (+visual sugar) Specify two parameters: full path to.exe and a mime type to apply to \nextensionless files. This will make the explorer show an icon that's\nassociated withthatmime type along with extless files in it's GUI.\nEXAMPLE: SetExtensionlessEditor \"%windir%\\notepad.exe\" txtfile\n\nAnd You need to be the Admin(evaluated) to do this shiet.";
 
 		/// <summary>
-		/// Make windows open extentionless files with a program you specify.
+		/// Make windows open extensionless files with a program you specify.
 		/// (RELOGIN MAY BE NECESSARY!)
 		/// You also can specify a mime type for those files. So, two ways to use.
 		/// 
 		/// 1) Specify a single parameter-path pointing to the .exe to call. 
 		/// It will be called and passed the opened file as a single arg.
 		/// ("%PATH% %1" in the windows register)
-		/// EXAMPLE: SetExtentionlessEditor "%windir%\\notepad.exe"
+		/// EXAMPLE: SetExtensionlessEditor "%windir%\\notepad.exe"
 		/// 
 		/// 2) (+visual sugar) Specify two parameters: full path to .exe and a mime type to apply to 
-		/// extentionless files. This will make the explorer show an icon that's
+		/// extensionless files. This will make the explorer show an icon that's
 		/// associated with that mime type along with extless files in it's GUI.
-		/// EXAMPLE: SetExtentionlessEditor "%windir%\\notepad.exe" txtfile
+		/// EXAMPLE: SetExtensionlessEditor "%windir%\\notepad.exe" txtfile
 		/// 
 		/// And You need to be the Admin(evaluated) to do this shiet.
 		/// </summary>
