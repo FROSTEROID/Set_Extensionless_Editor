@@ -1,9 +1,9 @@
 # Set_Extentionless_Editor
-A scriptlike(yeah, shitcode!) C# tool for associating an .exe file with files without extention. Extentionless files. Yeah, files, that have no .ext. There are some, You know.
+A scriptlike(yeah, shitcode!) C# tool for associating an .exe file with files without extension. Extentionless files. Yeah, files, that have no .ext. There are some, You know.
 If You have no idea how visual studio works, just go into SetExtentionlessEditor\bin\Release and load the .exe file down. Or waste some years on learning how to program in C#, that's awesome, too.
 
 <summary>
-Make windows open extentionless files with a program you specify.
+Make windows open extensionless files with a program you specify.
 (RELOGIN MAY BE NECESSARY!)
 You also can specify a mime type for those files. So, two ways to use.
 
@@ -13,7 +13,7 @@ It will be called and passed the opened file as a single arg.
 EXAMPLE: SetExtentionlessEditor "%windir%\\notepad.exe"
 
 2) (+visual sugar) Specify two parameters: full path to .exe and a mime type to apply to 
-extentionless files. This will make the explorer show an icon that's
+extensionless files. This will make the explorer show an icon that's
 associated with that mime type along with extless files in it's GUI.
 EXAMPLE: SetExtentionlessEditor "%windir%\\notepad.exe" txtfile
 
